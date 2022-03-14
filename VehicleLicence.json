@@ -1,0 +1,825 @@
+﻿{
+  "Settings": {
+    "Store Vehicle On Plugin Unloaded / Server Restart": true,
+    "Clear Vehicle Data On Map Wipe": false,
+    "Interval to check vehicle for wipe (Seconds)": 300.0,
+    "Spawn vehicle in the direction you are looking at": true,
+    "Automatically claim vehicles purchased from vehicle vendors": false,
+    "Vehicle vendor purchases will unlock the license for the player": false,
+    "Limit the number of vehicles at a time": 0,
+    "Kill a random vehicle when the number of vehicles is limited": false,
+    "Prevent vehicles from damaging players": true,
+    "Prevent vehicles from shattering": true,
+    "Prevent vehicles from spawning or recalling in safe zone": false,
+    "Prevent vehicles from spawning or recalling when the player are building blocked": false,
+    "Prevent vehicles from spawning or recalling when the player is mounted or parented": false,
+    "Check if any player mounted when recalling a vehicle": false,
+    "Check if any player mounted when killing a vehicle": false,
+    "Dismount all players when a vehicle is recalled": true,
+    "Prevent other players from mounting vehicle": false,
+    "Prevent mounting on driver's seat only": false,
+    "Prevent other players from looting fuel container and inventory": true,
+    "Use Teams": false,
+    "Use Clans": false,
+    "Use Friends": false,
+    "Vehicle No Decay": true,
+    "Vehicle No Fire Ball": true,
+    "Vehicle No Server Gibs": true,
+    "Chinook No Map Marker": true,
+    "Use Raid Blocker (Need NoEscape Plugin)": false,
+    "Use Combat Blocker (Need NoEscape Plugin)": false
+  },
+  "Chat Settings": {
+    "Use Universal Chat Command": true,
+    "Help Chat Command": "-",
+    "Buy Chat Command": "+",
+    "Spawn Chat Command": "",
+    "Recall Chat Command": "recall",
+    "Kill Chat Command": "no",
+    "Custom Kill Chat Command Prefix": "no",
+    "Bypass Cooldown Command": "",
+    "Chat Prefix": "<color=#FF0000>[Rustic Rejects]</color>: ",
+    "Chat SteamID Icon": 76561198924840872
+  },
+  "Normal Vehicle Settings": {
+    "Sedan Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Sedan",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 300,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "mycar",
+        "car"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      }
+    },
+    "Chinook Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Chinook",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 3000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "mych47",
+        "mychinook",
+        "chinook",
+        "ch47"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      }
+    },
+    "Rowboat Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Row Boat",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 500,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "myrow",
+        "myboat",
+        "boat"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Drop Inventory Items When Vehicle Recall": false
+    },
+    "RHIB Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Rigid Hulled Inflatable Boat",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 1000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "myrhib",
+        "rhib"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Drop Inventory Items When Vehicle Recall": false
+    },
+    "Hot Air Balloon Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Hot Air Balloon",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 500,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "myhab",
+        "myballoon",
+        "hab",
+        "balloon"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Drop Inventory Items When Vehicle Recall": false
+    },
+    "Ridable Horse Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Ridable Horse",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 6.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 700,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "myhorse",
+        "mysteer",
+        "horse",
+        "steer"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Drop Inventory Items When Vehicle Recall": false
+    },
+    "Mini Copter Vehicle": {
+      "Purchasable": false,
+      "Display Name": "Mini Copter",
+      "Use Permission": false,
+      "Permission": "kits.dontuse",
+      "Distance To Spawn": 2.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 4000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "vmymini",
+        "vmini"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false
+    },
+    "Transport Helicopter Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Transport Copter",
+      "Use Permission": false,
+      "Permission": "kits.authenticated",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 5000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "myheli",
+        "myscrapy",
+        "heli",
+        "scrappy"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false
+    },
+    "Work Cart Vehicle": {
+      "Purchasable": false,
+      "Display Name": "Work Cart",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 2000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "mycart",
+        "myworkcart",
+        "cart",
+        "workcart"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false
+    },
+    "Magnet Crane Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Magnet Crane",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 2000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "mycrane",
+        "mymagnetcrane",
+        "crane",
+        "magnetcrane"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false
+    },
+    "Submarine Solo Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Submarine Solo",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 2.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 600,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "subsolo",
+        "solo"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": true,
+      "Refund Fuel On Crash": true,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Drop Inventory Items When Vehicle Recall": false
+    },
+    "Submarine Duo Vehicle": {
+      "Purchasable": true,
+      "Display Name": "Submarine Duo",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 2.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 1000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {},
+      "Recall Prices": {},
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "subduo",
+        "duo"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": true,
+      "Refund Fuel On Crash": true,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Drop Inventory Items When Vehicle Recall": false
+    }
+  },
+  "Modular Vehicle Settings": {
+    "SmallCar": {
+      "Purchasable": true,
+      "Display Name": "Small Modular Car",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 1600,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {
+        "metal.refined": {
+          "amount": 10,
+          "displayName": "High Quality Metal"
+        }
+      },
+      "Recall Prices": {
+        "scrap": {
+          "amount": 5,
+          "displayName": "Scrap"
+        }
+      },
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "mysmall",
+        "mysmallcar",
+        "small",
+        "smallcar"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Refund Engine Items On Kill": false,
+      "Refund Engine Items On Crash": false,
+      "Refund Module Items On Kill": false,
+      "Refund Module Items On Crash": false,
+      "Drop Inventory Items When Vehicle Recall": false,
+      "Chassis Type (Small, Medium, Large)": "Small",
+      "Vehicle Module Items": [
+        {
+          "shortName": "vehicle.1mod.cockpit.with.engine",
+          "healthPercentage": 50.0
+        },
+        {
+          "shortName": "vehicle.1mod.storage",
+          "healthPercentage": 50.0
+        }
+      ],
+      "Vehicle Engine Items": [
+        {
+          "shortName": "carburetor1",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "crankshaft1",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "piston1",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "sparkplug1",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "valve1",
+          "conditionPercentage": 20.0
+        }
+      ]
+    },
+    "MediumCar": {
+      "Purchasable": true,
+      "Display Name": "Medium Modular Car",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 2400,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {
+        "metal.refined": {
+          "amount": 50,
+          "displayName": "High Quality Metal"
+        }
+      },
+      "Recall Prices": {
+        "scrap": {
+          "amount": 8,
+          "displayName": "Scrap"
+        }
+      },
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "mymedium",
+        "mymediumcar",
+        "medium",
+        "mediumcar"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Refund Engine Items On Kill": false,
+      "Refund Engine Items On Crash": false,
+      "Refund Module Items On Kill": false,
+      "Refund Module Items On Crash": false,
+      "Drop Inventory Items When Vehicle Recall": false,
+      "Chassis Type (Small, Medium, Large)": "Medium",
+      "Vehicle Module Items": [
+        {
+          "shortName": "vehicle.1mod.cockpit.with.engine",
+          "healthPercentage": 50.0
+        },
+        {
+          "shortName": "vehicle.1mod.rear.seats",
+          "healthPercentage": 50.0
+        },
+        {
+          "shortName": "vehicle.1mod.flatbed",
+          "healthPercentage": 50.0
+        }
+      ],
+      "Vehicle Engine Items": [
+        {
+          "shortName": "carburetor2",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "crankshaft2",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "piston2",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "sparkplug2",
+          "conditionPercentage": 20.0
+        },
+        {
+          "shortName": "valve2",
+          "conditionPercentage": 20.0
+        }
+      ]
+    },
+    "LargeCar": {
+      "Purchasable": true,
+      "Display Name": "Large Modular Car",
+      "Use Permission": true,
+      "Permission": "vehiclelicence.vip",
+      "Distance To Spawn": 5.0,
+      "Time Before Vehicle Wipe (Seconds)": 0.0,
+      "Maximum Health": 0.0,
+      "Can Recall Maximum Distance": 0.0,
+      "Can Kill Maximum Distance": 0.0,
+      "Minimum distance from player to recall or spawn": 0.0,
+      "Remove License Once Crashed": false,
+      "Purchase Prices": {
+        "scrap": {
+          "amount": 3000,
+          "displayName": "Scrap"
+        }
+      },
+      "Spawn Prices": {
+        "metal.refined": {
+          "amount": 100,
+          "displayName": "High Quality Metal"
+        }
+      },
+      "Recall Prices": {
+        "scrap": {
+          "amount": 10,
+          "displayName": "Scrap"
+        }
+      },
+      "Recall Cooldown Bypass Prices": {},
+      "Spawn Cooldown Bypass Prices": {},
+      "Commands": [
+        "mylarge",
+        "mylargecar",
+        "large",
+        "largecar"
+      ],
+      "Spawn Cooldown (Seconds)": 0.0,
+      "Recall Cooldown (Seconds)": 0.0,
+      "Cooldown Permissions": {
+        "vehiclelicence.vip": {
+          "spawnCooldown": 0.0,
+          "recallCooldown": 0.0
+        }
+      },
+      "Amount Of Fuel To Spawn": 9999,
+      "Refund Fuel On Kill": false,
+      "Refund Fuel On Crash": false,
+      "Refund Inventory On Kill": true,
+      "Refund Inventory On Crash": true,
+      "Refund Engine Items On Kill": false,
+      "Refund Engine Items On Crash": false,
+      "Refund Module Items On Kill": false,
+      "Refund Module Items On Crash": false,
+      "Drop Inventory Items When Vehicle Recall": false,
+      "Chassis Type (Small, Medium, Large)": "Large",
+      "Vehicle Module Items": [
+        {
+          "shortName": "vehicle.1mod.engine",
+          "healthPercentage": 50.0
+        },
+        {
+          "shortName": "vehicle.1mod.cockpit.armored",
+          "healthPercentage": 50.0
+        },
+        {
+          "shortName": "vehicle.1mod.passengers.armored",
+          "healthPercentage": 50.0
+        },
+        {
+          "shortName": "vehicle.1mod.storage",
+          "healthPercentage": 50.0
+        }
+      ],
+      "Vehicle Engine Items": [
+        {
+          "shortName": "carburetor3",
+          "conditionPercentage": 10.0
+        },
+        {
+          "shortName": "crankshaft3",
+          "conditionPercentage": 10.0
+        },
+        {
+          "shortName": "piston3",
+          "conditionPercentage": 10.0
+        },
+        {
+          "shortName": "piston3",
+          "conditionPercentage": 10.0
+        },
+        {
+          "shortName": "sparkplug3",
+          "conditionPercentage": 10.0
+        },
+        {
+          "shortName": "sparkplug3",
+          "conditionPercentage": 10.0
+        },
+        {
+          "shortName": "valve3",
+          "conditionPercentage": 10.0
+        },
+        {
+          "shortName": "valve3",
+          "conditionPercentage": 10.0
+        }
+      ]
+    }
+  },
+  "Version": {
+    "Major": 1,
+    "Minor": 7,
+    "Patch": 21
+  }
+}

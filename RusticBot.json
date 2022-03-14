@@ -1,0 +1,62 @@
+{
+  "Chat prefix": "<color=#FF0000>Rustic Regects</color>: ",
+  "Show chat prefix": true,
+  "Bot icon (SteamID)": 76561199062765025,
+  "Time between message and answer": 1.0,
+  "Welcome message enabled": true,
+  "Leaving message enabled": true,
+  "Welcome message": "<size=16><color=#EEAAAA>{name}</color></size> has joined!",
+  "Leaving message": "Goodbye <size=16><color=#EEAAAA>{name}",
+  "Time between auto messages": 300.0,
+  "Auto messages": [
+    "Having fun? Wish to support the community , maybe donate and become vip now at https://rusticrejects.tebex.io/.",
+    "Come join the Discord server at <color=#69A2FF>discord.gg/qrEmKQ9uDp</color>",
+    "Having fun? Wish to support the community? maybe donate and become vip now at https://rusticrejects.tebex.io/."
+  ],
+  "Append auto responses": true,
+  "Auto responses": [
+    {
+      "Response": "Use <size=16><color=#EEAAAA>/mymini</color></size> to spawn your minicopter",
+      "Keywords": [
+        "how",
+        "where",
+        "spawn",
+        "mini",
+        "command"
+      ],
+      "Number of keywords required": 3
+    },
+    {
+      "Response": "Use <size=16><color=#EEAAAA>/myheli</color></size> to spawn your scrap helicopter",
+      "Keywords": [
+        "how",
+        "where",
+        "spawn",
+        "scrappy",
+        "scrap heli",
+        "scrapheli",
+        "command"
+      ],
+      "Number of keywords required": 3
+    },
+    {
+      "Response": "Come join the Discord server at <color=#69A2FF>discord.gg/qrEmKQ9uDp</color>",
+      "Keywords": [
+        "discord"
+      ],
+      "Number of keywords required": 1
+    }
+  ],
+  "Naughty word punishments": [
+    {
+      "Word": "fuck you",
+      "Response": "That's not very nice",
+      "Naughtiness level": 1
+    },
+    {
+      "Word": "nigger",
+      "Response": "Yikes, very not cool. You're lucky the owners don't trust me with admin powers.",
+      "Naughtiness level": 3
+    }
+  ]
+}

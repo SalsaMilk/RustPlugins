@@ -1,0 +1,3333 @@
+{
+  "Generic": {
+    "fillAtEveryStartup": true,
+    "fixBarricadeStacking": true,
+    "logJobsToConsole": true,
+    "normalizeDefaultVariables": true,
+    "reloadWithIncludedFill": false
+  },
+  "Handler": {
+    "maxSpawnsPerTick": 200,
+    "minSpawnsPerTick": 100,
+    "tickInterval": 60.0
+  },
+  "Spawn": {
+    "Groups": {
+      "bandit_town": [
+        {
+          "_refDisplayPhrase": "StationaryPoint6",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint7",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint2",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint3",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint3 (1)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint3 (2)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint4 (1)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint4 (3)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint4 (4)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint4 (5)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint4 (13)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "StationaryPoint4 (16)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 35.0,
+          "respawnDelayMin": 25.0,
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "PlayerRespawnSpawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/gamemodes/softcore/staticrespawnzonebandit.prefab": 1000
+          }
+        },
+        {
+          "_refDisplayPhrase": "ReclaimSpawn",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 8,
+          "numToSpawnPerTickMin": 8,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/gamemodes/objects/reclaim/reclaimterminal.prefab": 1000
+          }
+        }
+      ],
+      "excavator_1": [
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1800.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_basic.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Food Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/foodbox.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Mine_crate_spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_basic.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_mine.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Umbilical",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 5,
+          "numToSpawnPerTickMin": 5,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_excavator.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "CoreOuter",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 5,
+          "numToSpawnPerTickMin": 5,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_excavator.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "CoreInner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 5,
+          "numToSpawnPerTickMin": 5,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_excavator.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "LowerLevels",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_excavator.prefab": 1
+          }
+        }
+      ],
+      "gas_station_1": [
+        {
+          "_refDisplayPhrase": "Vehicle Comp Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/vehicle_parts.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Food Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/foodbox.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1800.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_basic.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1800.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1800.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Mine_crate_spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_basic.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_mine.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Mine_crate_spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_mine.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "door_barricade_a_Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/door barricades/door_barricade_a.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "door_barricade_a_Spawner (1)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/door barricades/door_barricade_a.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_green",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner Office",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0
+          }
+        }
+      ],
+      "harbor_2": [
+        {
+          "_refDisplayPhrase": "Crates_spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel_spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 15,
+          "numToSpawnPerTickMin": 10,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Oil_spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 6,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/oil_barrel.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crates_spawner_tier2",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_blue",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_blue_pickup.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "door_barricade_a_Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/door barricades/door_barricade_a.prefab": 1
+          }
+        }
+      ],
+      "junkyard_1": [
+        {
+          "_refDisplayPhrase": "Crate Spawner Average",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 0,
+          "numToSpawnPerTickMin": 0,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0,
+            "assets/content/structures/excavator/prefabs/diesel_collectable.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_green",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "CraneSpawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 600.0,
+          "respawnDelayMin": 300.0,
+          "spawnWeights": {
+            "assets/content/vehicles/crane_magnet/magnetcrane.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "ShredableSpawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 600.0,
+          "spawnWeights": {
+            "assets/content/vehicles/crane_magnet/shreddable_pickuptruck.prefab": 1
+          }
+        }
+      ],
+      "launch_site_1": [
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner (1)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 8,
+          "numToSpawnPerTickMin": 5,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner (2)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Oil Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 900.0,
+          "respawnDelayMin": 600.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0,
+            "assets/bundled/prefabs/radtown/oil_barrel.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_Average",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 8,
+          "numToSpawnPerTickMin": 5,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_Blend",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 8,
+          "numToSpawnPerTickMin": 5,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_Excellent",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_Elite",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_elite.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_Blend",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        }
+      ],
+      "lighthouse": [
+        {
+          "_refDisplayPhrase": "Barrel/Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0,
+            "assets/bundled/prefabs/radtown/oil_barrel.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_green",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "door_barricade_a_Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/door barricades/door_barricade_a.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "door_barricade_b_Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/door barricades/door_barricade_b.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner Quarters",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        }
+      ],
+      "OilrigAI2": [
+        {
+          "_refDisplayPhrase": "BarrelSpawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Oil Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/oil_barrel.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Food Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_L4",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_green",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_L5",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner_L6",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Elite Spawner_L6",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_elite.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "DockSpawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "L1",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "L2",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "L3",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "L4",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "L5",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "L6",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 7,
+          "numToSpawnPerTickMin": 7,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "HackedCrateSpawn",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/chinooklockedcrate/codelockedhackablecrate_oilrig.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "Diesel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/content/structures/excavator/prefabs/diesel_collectable.prefab": 0
+          }
+        }
+      ],
+      "power_sub_small_1": [
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        }
+      ],
+      "power_sub_small_2": [
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        }
+      ],
+      "powerplant_1": [
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Food Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner Plant",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 5,
+          "numToSpawnPerTickMin": 5,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner Plant",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 8,
+          "numToSpawnPerTickMin": 8,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_green",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_red",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_red_pickup.entity.prefab": 1
+          }
+        }
+      ],
+      "sphere_tank": [
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0,
+            "assets/bundled/prefabs/radtown/oil_barrel.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Oil Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 3,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 1800.0,
+          "respawnDelayMin": 1200.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0,
+            "assets/bundled/prefabs/radtown/oil_barrel.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 2200.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Diesel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 0,
+          "numToSpawnPerTickMin": 0,
+          "respawnDelayMax": 1800.0,
+          "respawnDelayMin": 1200.0,
+          "spawnWeights": {
+            "assets/content/structures/excavator/prefabs/diesel_collectable.prefab": 0
+          }
+        }
+      ],
+      "supermarket_1": [
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_basic.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Food Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/foodbox.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Vehicle Comp Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/vehicle_parts.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_green",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_green_pickup.entity.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "door_barricade_b_Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/door barricades/door_barricade_b.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "door_barricade_b_Spawner (1)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/deployable/door barricades/door_barricade_b.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner Office (1)",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0
+          }
+        }
+      ],
+      "trainyard_1": [
+        {
+          "_refDisplayPhrase": "PuzzleRoom2",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "PuzzleRoom1_1",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "PuzzleRoom1_2",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "PuzzleTower",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol.prefab": 1
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Food Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner Tower",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner Tower",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 10,
+          "numToSpawnPerTickMin": 10,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_red",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_red_pickup.entity.prefab": 1
+          }
+        }
+      ],
+      "warehouse": [
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Basic Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_basic.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Basic Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Basic Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Vehicle Comp Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 2,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": 1200.0,
+          "respawnDelayMin": 900.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/vehicle_parts.prefab": 0
+          }
+        }
+      ],
+      "water_treatment_plant_1": [
+        {
+          "_refDisplayPhrase": "Crate Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Barrel Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 2,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/loot_barrel_1.prefab": 0,
+            "assets/bundled/prefabs/radtown/loot_barrel_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Food Spawner",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 5,
+          "numToSpawnPerTickMin": 3,
+          "respawnDelayMax": 2200.0,
+          "respawnDelayMin": 1800.0,
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal_2_food.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner Warehouse",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 4,
+          "numToSpawnPerTickMin": 4,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "Crate Spawner Control Room",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 6,
+          "numToSpawnPerTickMin": 6,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/bundled/prefabs/radtown/crate_normal.prefab": 0,
+            "assets/bundled/prefabs/radtown/crate_normal_2.prefab": 0
+          }
+        },
+        {
+          "_refDisplayPhrase": "card_spawner_red",
+          "maxPopulation": 0,
+          "numToSpawnPerTickMax": 1,
+          "numToSpawnPerTickMin": 1,
+          "respawnDelayMax": "Infinity",
+          "respawnDelayMin": "Infinity",
+          "spawnWeights": {
+            "assets/prefabs/tools/keycard/keycard_red_pickup.entity.prefab": 1
+          }
+        }
+      ]
+    },
+    "Population": {
+      "Bear.Population": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -2,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 32862110
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/agents/bear/bear.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "Boar.Population": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 3,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 32862110
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/agents/boar/boar.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "Chicken.Population": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 4,
+        "clusterSizeMin": 2,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 2,
+          "SplatType": 53,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 32862110
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/agents/chicken/chicken.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "collectable-food-mushroom": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 2,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 32,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 32860806
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/mushrooms/mushroom-cluster-5.prefab": 1,
+          "assets/bundled/prefabs/autospawn/collectable/mushrooms/mushroom-cluster-6.prefab": 1
+        },
+        "targetDensity": 80.0
+      },
+      "collectable-resource-hemp": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 49,
+          "TopologyAll": 0,
+          "TopologyAny": 33,
+          "TopologyNot": 32860822
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/hemp/hemp-collectable.prefab": 0
+        },
+        "targetDensity": 80.0
+      },
+      "collectable-resource-stone": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": -201,
+          "TopologyAll": 0,
+          "TopologyAny": 33,
+          "TopologyNot": 32860822
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/stone/metal-collectable.prefab": 0,
+          "assets/bundled/prefabs/autospawn/collectable/stone/stone-collectable.prefab": 0,
+          "assets/bundled/prefabs/autospawn/collectable/stone/sulfur-collectable.prefab": 0
+        },
+        "targetDensity": 160.0
+      },
+      "collectable-resource-wood": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 4358507,
+          "TopologyNot": 29190804
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/wood/wood-collectable.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "divesites": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 262528,
+          "TopologyNot": 0
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/prefabs/misc/divesite/divesite_a.prefab": 0,
+          "assets/prefabs/misc/divesite/divesite_b.prefab": 0,
+          "assets/prefabs/misc/divesite/divesite_c.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "driftwood": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 5,
+        "clusterSizeMin": 3,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -1,
+          "SplatType": 5,
+          "TopologyAll": 0,
+          "TopologyAny": 24,
+          "TopologyNot": 2752418
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_1.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_2.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_3.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_4.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_5.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_set_1.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_set_2.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/driftwood/driftwood_set_3.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "HAB.Population": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 11,
+          "SplatType": 247,
+          "TopologyAll": 0,
+          "TopologyAny": 1052673,
+          "TopologyNot": 15712698
+        },
+        "spawnRate": 0,
+        "spawnWeights": {
+          "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab": 0
+        },
+        "targetDensity": 1.0
+      },
+      "Horse.Population": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 3,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 32862110
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/agents/horse/horse.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "junkpiles": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -1,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 528384,
+          "TopologyNot": 31805334
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/prefabs/misc/junkpile/junkpile_a.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_b.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_c.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_d.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_e.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_f.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_g.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_h.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_i.prefab": 1,
+          "assets/prefabs/misc/junkpile/junkpile_j.prefab": 1
+        },
+        "targetDensity": 50.0
+      },
+      "junkpiles_water": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 262144,
+          "TopologyNot": 0
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/prefabs/misc/junkpile_water/junkpile_water_a.prefab": 1,
+          "assets/prefabs/misc/junkpile_water/junkpile_water_b.prefab": 1,
+          "assets/prefabs/misc/junkpile_water/junkpile_water_c.prefab": 1
+        },
+        "targetDensity": 8.0
+      },
+      "logs_dry": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -12,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 96,
+          "TopologyNot": 3504774
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/logs_dry/dead_log_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/logs_dry/dead_log_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/logs_dry/dead_log_c.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "logs_snow": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -8,
+          "SplatType": 2,
+          "TopologyAll": 0,
+          "TopologyAny": 96,
+          "TopologyNot": 3504774
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/logs_snow/dead_log_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/logs_snow/dead_log_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/logs_snow/dead_log_c.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "logs_wet": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -14,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 96,
+          "TopologyNot": 3504774
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/logs_wet/dead_log_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/logs_wet/dead_log_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/logs_wet/dead_log_c.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "loot": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -1,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 1024,
+          "TopologyNot": 31801990
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-1.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-2.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/loot/trash-pile-1.prefab": 0
+        },
+        "targetDensity": 25.0
+      },
+      "Minicopter.Population": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 7,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 2048,
+          "TopologyNot": 1106240414
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/content/vehicles/minicopter/minicopter.entity.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "ModularCar.Population": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 7,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 6144,
+          "TopologyNot": 1106240510
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab": 1,
+          "assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab": 1,
+          "assets/content/vehicles/modularcar/4module_car_spawned.entity.prefab": 1
+        },
+        "targetDensity": 3.0
+      },
+      "ores": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 6,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 20972032,
+          "TopologyNot": 3399066
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/ores/metal-ore.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/ores/stone-ore.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/ores/sulfur-ore.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "ores_sand": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 204,
+          "TopologyAll": 0,
+          "TopologyAny": 20972032,
+          "TopologyNot": 3399066
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/ores_sand/metal-ore.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/ores_sand/stone-ore.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/ores_sand/sulfur-ore.prefab": 0
+        },
+        "targetDensity": 0
+      },
+      "ores_snow": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 8,
+          "SplatType": 202,
+          "TopologyAll": 0,
+          "TopologyAny": 20972032,
+          "TopologyNot": 3399066
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/ores_snow/metal-ore.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/ores_snow/stone-ore.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/ores_snow/sulfur-ore.prefab": 0
+        },
+        "targetDensity": 0
+      },
+      "plant-berry-blue": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 32860806
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/berry-blue/berry-blue-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "plant-berry-green": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 32860806
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/berry-green/berry-green-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "plant-berry-red": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 32860806
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/berry-red/berry-red-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "plant-berry-white": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 32860806
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/berry-white/berry-white-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "plant-berry-yellow": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 32860806
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/berry-yellow/berry-yellow-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "plant-corn": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 163840,
+          "TopologyNot": 32861086
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/corn/corn-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "plant-potato": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 32,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 32860806
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/potato/potato-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "plant-pumpkin": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 163840,
+          "TopologyNot": 32861086
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/collectable/pumpkin/pumpkin-collectable.prefab": 0
+        },
+        "targetDensity": 10.0
+      },
+      "procmap_v3_arctic_forest": {
+        "clusterDithering": 16,
+        "clusterSizeMax": 14,
+        "clusterSizeMin": 7,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -8,
+          "SplatType": 18,
+          "TopologyAll": 0,
+          "TopologyAny": 1,
+          "TopologyNot": 2968062
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_a_snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_b snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_d_snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_dead_snow_e.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_dead_snow_f.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_sapling_d_snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_sapling_e_snow.prefab": 1
+        },
+        "targetDensity": 1000.0
+      },
+      "procmap_v3_arctic_forest_saplings": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 8,
+          "SplatType": 50,
+          "TopologyAll": 0,
+          "TopologyAny": 96,
+          "TopologyNot": 7949714
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_a_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_b_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_c_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_d_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_e_snow.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_arctic_forest_snow": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -8,
+          "SplatType": 2,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 4016607
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/douglas_fir_a_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/douglas_fir_b_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/douglas_fir_c_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_a_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_c_snow.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_e.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_f.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_arid_cactus": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -15,
+          "SplatType": 5,
+          "TopologyAll": 0,
+          "TopologyAny": 1,
+          "TopologyNot": 3500678
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-1.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-2.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-3.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-4.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-5.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-6.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-7.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_arid_palm_beach": {
+        "clusterDithering": 15,
+        "clusterSizeMax": 12,
+        "clusterSizeMin": 4,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -15,
+          "SplatType": 4,
+          "TopologyAll": 0,
+          "TopologyAny": 163848,
+          "TopologyNot": 3500935
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_short_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_short_b_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_short_c_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_small_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_small_b_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_small_c_entity.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_arid_palms_dense": {
+        "clusterDithering": 4,
+        "clusterSizeMax": 5,
+        "clusterSizeMin": 2,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 20,
+          "TopologyAll": 0,
+          "TopologyAny": 245768,
+          "TopologyNot": 3484407
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_med_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_b_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_c_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_tall_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_tall_b_entity.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_arid_palms_light": {
+        "clusterDithering": 4,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 163915,
+          "TopologyNot": 3500726
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_short_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_short_b_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_short_c_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_small_b_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_small_c_entity.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_arid_palms_superdense": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 32,
+          "TopologyAll": 0,
+          "TopologyAny": 4325416,
+          "TopologyNot": 3500164
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_med_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_b_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_c_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_tall_a_entity.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_tall_b_entity.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_bushes_arctic_field": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 4,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 8,
+          "SplatType": 2,
+          "TopologyAll": 0,
+          "TopologyAny": 1,
+          "TopologyNot": 36522482
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_d.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_small_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_small_b.prefab": 1
+        },
+        "targetDensity": 2000.0
+      },
+      "procmap_v3_bushes_arctic_forest": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 8,
+          "SplatType": 50,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 19745234
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_spicebush_a_snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_spicebush_c_snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_d.prefab": 1
+        },
+        "targetDensity": 2000.0
+      },
+      "procmap_v3_bushes_arctic_forestside": {
+        "clusterDithering": 2,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 8,
+          "SplatType": 52,
+          "TopologyAll": 0,
+          "TopologyAny": 64,
+          "TopologyNot": 2967986
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_spicebush_a_snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_spicebush_c_snow.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_d.prefab": 1
+        },
+        "targetDensity": 10000.0
+      },
+      "procmap_v3_bushes_arid_desert": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 4,
+          "TopologyAll": 0,
+          "TopologyAny": 4194305,
+          "TopologyNot": 53308402
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/creosote_bush_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/creosote_bush_d.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_d.prefab": 1
+        },
+        "targetDensity": 7000.0
+      },
+      "procmap_v3_bushes_arid_dry": {
+        "clusterDithering": 2,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 52,
+          "TopologyAll": 0,
+          "TopologyAny": 4194401,
+          "TopologyNot": 53308306
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_dry/creosote_bush_dry_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_dry/creosote_bush_dry_b.prefab": 1
+        },
+        "targetDensity": 500.0
+      },
+      "procmap_v3_bushes_arid_grass": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 4,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 4194401,
+          "TopologyNot": 53308306
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_d.prefab": 1
+        },
+        "targetDensity": 5000.0
+      },
+      "procmap_v3_bushes_arid_ocotillo": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 2,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 1,
+          "SplatType": 52,
+          "TopologyAll": 0,
+          "TopologyAny": 4194401,
+          "TopologyNot": 53308306
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_d.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_d.prefab": 1
+        },
+        "targetDensity": 500.0
+      },
+      "procmap_v3_bushes_temp_field": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 4,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 2,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 4194305,
+          "TopologyNot": 53308402
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_d.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_d.prefab": 1
+        },
+        "targetDensity": 2000.0
+      },
+      "procmap_v3_bushes_temp_forest": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 2,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 33554464,
+          "TopologyNot": 7425682
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_d.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_d.prefab": 1
+        },
+        "targetDensity": 750.0
+      },
+      "procmap_v3_bushes_temp_forestside": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 2,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 64,
+          "TopologyNot": 3230594
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_d.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_a.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_b.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_c.prefab": 1,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_d.prefab": 1
+        },
+        "targetDensity": 7500.0
+      },
+      "procmap_v3_bushes_temp_waterside": {
+        "clusterDithering": 8,
+        "clusterSizeMax": 6,
+        "clusterSizeMin": 3,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 2,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 163864,
+          "TopologyNot": 35737218
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_d.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_bushes_tundra_field": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 4,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 4194305,
+          "TopologyNot": 53308402
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_d.prefab": 0
+        },
+        "targetDensity": 2000.0
+      },
+      "procmap_v3_temp_beachforest_small": {
+        "clusterDithering": 2,
+        "clusterSizeMax": 10,
+        "clusterSizeMin": 2,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -14,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 163848,
+          "TopologyNot": 6645895
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_beachside/birch_small_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_beachside/birch_tiny_temp.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_temp_field_large": {
+        "clusterDithering": 16,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 2,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 1077936641,
+          "TopologyNot": 54356474
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field_large/oak_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field_large/oak_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field_large/oak_d.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_temp_field_small": {
+        "clusterDithering": 7,
+        "clusterSizeMax": 14,
+        "clusterSizeMin": 6,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -14,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 4194305,
+          "TopologyNot": 53308402
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/american_beech_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/american_beech_e.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/birch_small_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/birch_tiny_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/oak_e.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/oak_f.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/pine_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_field/pine_d.prefab": 0
+        },
+        "targetDensity": 3000.0
+      },
+      "procmap_v3_temp_forest": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -14,
+          "SplatType": 48,
+          "TopologyAll": 32,
+          "TopologyAny": 32,
+          "TopologyNot": 36530398
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/american_beech_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/american_beech_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/american_beech_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/birch_big_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/birch_large_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/douglas_fir_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/douglas_fir_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/douglas_fir_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/pine_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/pine_c.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_temp_forest_deciduous": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -14,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 33554432,
+          "TopologyNot": 2975966
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_a_dead.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/birch_big_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/birch_large_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/birch_medium_temp.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_temp_forest_small": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -14,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 64,
+          "TopologyNot": 36530366
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside_pine/douglas_fir_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside_pine/pine_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside_pine/pine_d.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_temp_forest_small_deciduous": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -14,
+          "SplatType": 48,
+          "TopologyAll": 33554432,
+          "TopologyAny": 33554496,
+          "TopologyNot": 2975934
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/american_beech_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/american_beech_e.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/american_beech_e_dead.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/birch_medium_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/birch_small_temp.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/birch_tiny_temp.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_tundra_field": {
+        "clusterDithering": 7,
+        "clusterSizeMax": 14,
+        "clusterSizeMin": 6,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -12,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 4194305,
+          "TopologyNot": 2451706
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_big_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_large_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_medium_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_small_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_tiny_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/pine_dead_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/pine_dead_e.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/pine_dead_f.prefab": 0
+        },
+        "targetDensity": 800.0
+      },
+      "procmap_v3_tundra_field_pines": {
+        "clusterDithering": 6,
+        "clusterSizeMax": 14,
+        "clusterSizeMin": 6,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -12,
+          "SplatType": 16,
+          "TopologyAll": 0,
+          "TopologyAny": 1,
+          "TopologyNot": 2451706
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_e.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_tundra_forest": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -12,
+          "SplatType": 32,
+          "TopologyAll": 0,
+          "TopologyAny": 32,
+          "TopologyNot": 2451610
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/birch_big_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/birch_large_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_e.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_f.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_tundra_forest_saplings": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 3,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 4,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 96,
+          "TopologyNot": 2707346
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_e.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "procmap_v3_tundra_forest_small": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -12,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": 64,
+          "TopologyNot": 2451610
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/birch_medium_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/birch_small_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/birch_tiny_tundra.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/douglas_fir_d_small.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/pine_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/pine_d.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "RHIB.Population": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 5,
+          "SplatType": -11,
+          "TopologyAll": 128,
+          "TopologyAny": 128,
+          "TopologyNot": 24
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/content/vehicles/boats/rhib/rhib.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "RidableHorse.Population": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 3,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 1106079654
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/nextai/testridablehorse.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "Rowboat.Population": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": -11,
+          "TopologyAll": 16,
+          "TopologyAny": 246016,
+          "TopologyNot": 8
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/content/vehicles/boats/rowboat/rowboat.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "Scarecrow.Population": {
+        "clusterDithering": 3,
+        "clusterSizeMax": 2,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -1,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 529408,
+          "TopologyNot": 32858758
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/prefabs/npc/scarecrow/scarecrow.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "ScrapTransportHelicopter.Population": {
+        "clusterDithering": 0,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": 7,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": 2049,
+          "TopologyNot": 1106240414
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/content/vehicles/scrap heli carrier/scraptransporthelicopter.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "Stag.Population": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 5,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": false,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -10,
+          "SplatType": 48,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 32862086
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/agents/stag/stag.prefab": 1
+        },
+        "targetDensity": 0.0
+      },
+      "swamp-trees": {
+        "clusterDithering": 2,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": true,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -1,
+          "SplatType": -1,
+          "TopologyAll": 1028,
+          "TopologyAny": 8192,
+          "TopologyNot": 1089460634
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/bundled/prefabs/autospawn/resource/swamp-trees/swamp_tree_a.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/swamp-trees/swamp_tree_b.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/swamp-trees/swamp_tree_c.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/swamp-trees/swamp_tree_d.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/swamp-trees/swamp_tree_e.prefab": 0,
+          "assets/bundled/prefabs/autospawn/resource/swamp-trees/swamp_tree_f.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "Wolf.Population": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -9,
+          "SplatType": -9,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 32862110
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/agents/wolf/wolf.prefab": 0
+        },
+        "targetDensity": 0.0
+      },
+      "Zombie.Population": {
+        "clusterDithering": 1,
+        "clusterSizeMax": 1,
+        "clusterSizeMin": 1,
+        "enforceLimits": true,
+        "protectFromKillAll": false,
+        "scaleWithLargeMaps": true,
+        "scaleWithServerPopulation": false,
+        "scaleWithSpawnFilter": false,
+        "spawnFillHeartbeat": 0,
+        "spawnFilter": {
+          "BiomeType": -1,
+          "SplatType": -1,
+          "TopologyAll": 0,
+          "TopologyAny": -1,
+          "TopologyNot": 32861830
+        },
+        "spawnRate": 0.0,
+        "spawnWeights": {
+          "assets/rust.ai/agents/zombie/zombie.prefab": 1
+        },
+        "targetDensity": 0.0
+      }
+    }
+  }
+}

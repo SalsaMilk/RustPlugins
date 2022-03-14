@@ -1,0 +1,393 @@
+[
+  {
+    "GroupName": "default",
+    "Priority": 16,
+    "Title": {
+      "Text": "[Pilot]",
+      "Color": "#81808F",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "poop",
+    "Priority": 15,
+    "Title": {
+      "Text": "[Poop-Pilot]",
+      "Color": "#7A4800",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "propilot",
+    "Priority": 14,
+    "Title": {
+      "Text": "[Expert]",
+      "Color": "#8029FF",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "godpilot",
+    "Priority": 13,
+    "Title": {
+      "Text": "[God]",
+      "Color": "#8029FF",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "vip",
+    "Priority": 12,
+    "Title": {
+      "Text": "[VIP]",
+      "Color": "#00FF00",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "trialmod",
+    "Priority": 11,
+    "Title": {
+      "Text": "[TrialMod]",
+      "Color": "#FF7C00",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "juniormod",
+    "Priority": 10,
+    "Title": {
+      "Text": "[Jr. Mod]",
+      "Color": "#00FFFF",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "mod",
+    "Priority": 9,
+    "Title": {
+      "Text": "[Mod]",
+      "Color": "#00FFFF",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "seniormod",
+    "Priority": 8,
+    "Title": {
+      "Text": "[Sr. Mod]",
+      "Color": "#00FFFF",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "junioradmin",
+    "Priority": 7,
+    "Title": {
+      "Text": "[Jr. Admin]",
+      "Color": "blue",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "administration",
+    "Priority": 6,
+    "Title": {
+      "Text": "[Admin]",
+      "Color": "#FF0000",
+      "Size": 18,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#0006FF",
+      "Size": 18
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "senioradmin",
+    "Priority": 5,
+    "Title": {
+      "Text": "[Sr. Admin]",
+      "Color": "#FF0000",
+      "Size": 18,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#0006FF",
+      "Size": 18
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "staffmanager",
+    "Priority": 4,
+    "Title": {
+      "Text": "[Staff Manager]",
+      "Color": "#FF0000",
+      "Size": 18,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#0006FF",
+      "Size": 18
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "communitymanager",
+    "Priority": 3,
+    "Title": {
+      "Text": "[Community Manager]",
+      "Color": "#FF0000",
+      "Size": 18,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#0006FF",
+      "Size": 18
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "dev",
+    "Priority": 2,
+    "Title": {
+      "Text": "[Dev]",
+      "Color": "#E05600",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "headdev",
+    "Priority": 1,
+    "Title": {
+      "Text": "[Head Dev]",
+      "Color": "#E05600",
+      "Size": 15,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#55aaff",
+      "Size": 15
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  },
+  {
+    "GroupName": "owner",
+    "Priority": 0,
+    "Title": {
+      "Text": "[Owner]",
+      "Color": "#FF0000",
+      "Size": 18,
+      "Hidden": false,
+      "HiddenIfNotPrimary": false
+    },
+    "Username": {
+      "Color": "#0006FF",
+      "Size": 18
+    },
+    "Message": {
+      "Color": "white",
+      "Size": 15
+    },
+    "Format": {
+      "Chat": "{Title} {Username}: {Message}",
+      "Console": "{Title} {Username}: {Message}"
+    }
+  }
+]
