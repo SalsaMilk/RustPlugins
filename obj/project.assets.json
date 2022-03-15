@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mitch\\source\\repos\\RustPlugins\\RustPlugins\\RustPlugins.csproj",
+      "projectUniqueName": "C:\\Users\\mitch\\Documents\\GitHub\\RustPlugins\\RustPlugins.csproj",
       "projectName": "RustPlugins",
-      "projectPath": "C:\\Users\\mitch\\source\\repos\\RustPlugins\\RustPlugins\\RustPlugins.csproj",
+      "projectPath": "C:\\Users\\mitch\\Documents\\GitHub\\RustPlugins\\RustPlugins.csproj",
       "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mitch\\source\\repos\\RustPlugins\\RustPlugins\\obj\\",
+      "outputPath": "C:\\Users\\mitch\\Documents\\GitHub\\RustPlugins\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

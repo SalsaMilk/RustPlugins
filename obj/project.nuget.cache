@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uwY4jao3+QHwnSGIjKfwzik5RK+KqAKClQgNtn+vsZXnKNUgNbDoxSG/O19Si9QBeGwLmkO5cB6pxRr6XGho7A==",
+  "dgSpecHash": "dp5DO4UBvQea1YGmX2Yqb8P7NZEcfzCc9pAhkGaT/kPcECZYkwEMWM++8mVGoUSIdXo2jRa9SAvwjy9L5+xEfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mitch\\source\\repos\\RustPlugins\\RustPlugins\\RustPlugins.csproj",
+  "projectFilePath": "C:\\Users\\mitch\\Documents\\GitHub\\RustPlugins\\RustPlugins.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

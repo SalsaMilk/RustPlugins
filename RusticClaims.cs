@@ -88,3 +88,9 @@ namespace Oxide.Plugins
         }
     }
 }
+
+/*
+ * Flags:
+ * nowounded - true/false - Skip the wounded state when a player dies
+ * keepvehiclesin - true/false - Vehicles inside the zone will be prevented from leaving
+ */

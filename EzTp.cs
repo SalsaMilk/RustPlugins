@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using System.Collections;
 using Oxide.Game.Rust.Libraries;
 using Newtonsoft.Json;
@@ -14,4 +14,4 @@ namespace Oxide.Plugins
     class MiniTrails : RustPlugin
     {
     }
-}
+}*/
