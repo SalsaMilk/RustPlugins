@@ -30,8 +30,6 @@ namespace Oxide.Plugins
         [PluginReference] Plugin ZoneDomes;
         [PluginReference] Plugin ZoneManager;
 
-        ZoneManager zm = new ZoneManager();
-
         private const string SphereEnt = "assets/prefabs/visualization/sphere.prefab";
 
         //              Steam ID, Claim Position
@@ -39,13 +37,13 @@ namespace Oxide.Plugins
 
         private class Claim
         {
-            public string zoneID;
+            public string ID; // functions as zoneID
 
             public Vector3 pos;
 
-            public Claim(string zoneID, Vector3 pos)
+            public Claim(string ID, Vector3 pos)
             {
-                this.zoneID = zoneID;
+                this.ID = ID;
 
                 this.pos = pos;
             }
@@ -66,12 +64,18 @@ namespace Oxide.Plugins
 
             // Chose random location on map and ensure it doesn't fuck up
             // claim grid is 19x19 with each square being 292
-            Vector2 pos = new Vector2(Core.Random.Range(-9, 9) * 292, Core.Random.Range(-9, 9) * 292);
-            while (ClaimTaken(pos))
-                pos = new Vector2(Core.Random.Range(-9, 9) * 292, Core.Random.Range(-9, 9) * 292);
+            Vector3 pos;
+            do
+                pos = new Vector3(Core.Random.Range(-9, 9) * 292, 30, Core.Random.Range(-9, 9) * 292);
+            while (ClaimTaken(pos));
 
             Claims.Add(player.userID, new Claim(player.UserIDString, pos));
 
+            if (!(bool)ZoneManager?.Call("CreateOrUpdateZone", player.UserIDString, new string[] { }, pos))
+            {
+                Puts($"Error creating zone for {player.UserIDString}");
+                return;
+            }
 
             if (!(bool)ZoneDomes?.Call("AddNewDome", player, player.UserIDString))
             {
@@ -79,18 +83,13 @@ namespace Oxide.Plugins
                 return;
             }
 
-            player.Teleport(new Vector3(pos.x, 30f, pos.y));
+            player.Teleport(pos);
         }
 
         [ChatCommand("unclaim")]
         private void cmdUnclaim(BasePlayer player, string command, string[] args)
         {
+
         }
     }
 }
-
-/*
- * Flags:
- * nowounded - true/false - Skip the wounded state when a player dies
- * keepvehiclesin - true/false - Vehicles inside the zone will be prevented from leaving
- */

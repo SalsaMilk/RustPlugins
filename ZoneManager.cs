@@ -2029,7 +2029,7 @@ namespace Oxide.Plugins
             }
         }
 
-        private bool CreateOrUpdateZone(string zoneId, string[] args, Vector3 position = default(Vector3))
+        public bool CreateOrUpdateZone(string zoneId, string[] args, Vector3 position = default(Vector3))
         {
             Zone.Definition definition;
 
@@ -2056,7 +2056,7 @@ namespace Oxide.Plugins
             return true;
         }
 
-        private bool EraseZone(string zoneId)
+        public bool EraseZone(string zoneId)
         {
             Zone zone;
             if (!zones.TryGetValue(zoneId, out zone))

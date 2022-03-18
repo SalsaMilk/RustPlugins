@@ -1,4 +1,16 @@
-﻿using UnityEngine;
+﻿/*
+  ██████  ▄▄▄       ██▓      ██████  ▄▄▄
+▒██    ▒ ▒████▄    ▓██▒    ▒██    ▒ ▒████▄
+░ ▓██▄   ▒██  ▀█▄  ▒██░    ░ ▓██▄   ▒██  ▀█▄
+  ▒   ██▒░██▄▄▄▄██ ▒██░      ▒   ██▒░██▄▄▄▄██
+▒██████▒▒ ▓█   ▓██▒░██████▒▒██████▒▒ ▓█   ▓██▒
+▒ ▒▓▒ ▒ ░ ▒▒   ▓▒█░░ ▒░▓  ░▒ ▒▓▒ ▒ ░ ▒▒   ▓▒█░
+░ ░▒  ░ ░  ▒   ▒▒ ░░ ░ ▒  ░░ ░▒  ░ ░  ▒   ▒▒ ░
+░  ░  ░    ░   ▒     ░ ░   ░  ░  ░    ░   ▒   
+ Contact Salsa#7717 on Discord for programming/business inquiries
+*/
+
+using UnityEngine;
 
 namespace Oxide.Plugins
 {
@@ -6,27 +18,6 @@ namespace Oxide.Plugins
     [Description("Anti-ramming measure for minicopters")]
     class NoMiniCollide : RustPlugin
     {
-        private int lasta;
-        private int lastb;
-
-        #region Hooks
-        /*
-        [ChatCommand("coldo")]
-        private void cmdColliders(BasePlayer player, string command, string[] args)
-        {
-            int a = int.Parse(args[0]);
-            int b = int.Parse(args[1]);
-            lasta = a;
-            lastb = b;
-            DisableCollision(a, b);
-        }
-
-        [ChatCommand("colundo")]
-        private void cmdColliders2(BasePlayer player, string command, string[] args)
-        {
-            EnableCollision(lasta, lastb);
-        }*/
-
         private void Init()
         {
             DisableCollision(15, 15);
@@ -42,8 +33,6 @@ namespace Oxide.Plugins
             EnableCollision(8, 8);
             EnableCollision(9, 9);
         }
-
-        #endregion
 
         private void DisableCollision(int a, int b)
         {
